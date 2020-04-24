@@ -16,10 +16,15 @@ contains house sale prices for King County. It is a useful dataset for evaluatin
 models. In this dataset, I will predict the sales price of houses in King County. It includes homes
 sold between May 2014 and May 2015.
 
-I performed Data cleaning, data modeling, variable selection method (step : forward and backward), Cheking for skewness, Correlation to check which variables have positive and negative impact on Price prediction, k-fold cross validation on Gradient boosting.
+I performed Data cleaning, data modelling, variable selection method (step: forward and backward), Checking for skewness, Correlation to check which variables have positive and negative impact on Price prediction, k-fold cross validation on Gradient boosting.
 
-Diffenent models are used overtime to check Acurracy:
+Different models are used overtime to check Accuracy:
+
 1.Logistic regression
+
 2.Decision Tree
+
 3.Random Forest
+
 4.Gradient Boosting
+
