@@ -6,7 +6,7 @@ populous in the United States. The county seat is Seattle, which is the state’
 County is one of three Washington counties that are included in the Seattle-Tacoma-Bellevue
 metropolitan statistical area. About two-thirds of King County’s population lives in the city’s
 suburbs. As of 2011, King County was the 86th highest-income county in the United States. This
-paper addresses the factors concerning the “house sale prices” in King County sold between May
+document addresses the factors concerning the “house sale prices” in King County sold between May
 2014 and May 2015.
 
 For this project, I am using a dataset from Kaggle, ‘kc_house_data.csv’
