@@ -1,4 +1,4 @@
-# King-count-House-purchase-price-prediction
+# King-county-House-purchase-price-prediction
 
 King County is a county located in the U.S. state of Washington. The population was 2,149,970 in
 a 2016 census estimate. King is the most populous county in Washington, and the 13th-most
