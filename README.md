@@ -20,7 +20,7 @@ I performed Data cleaning, data modelling, variable selection method (step: forw
 
 Different models are used overtime to check Accuracy:
 
-1.Logistic regression
+1.Linear regression
 
 2.Decision Tree
 
