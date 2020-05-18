@@ -76,7 +76,7 @@ summary(model)
 #predicting prices for reduced model
 pred_log_prob_full<-predict(model, newdata = test, type = 'response')
 
-#finding RMSE(root mean square error) less the value more better the model and R2 to check accuracy
+#finding RMSE(root mean square error) less the value more better the model and R2 to check how much variance the model explains
 RMSE(pred_log_prob_full,test$price)
 R2(pred_log_prob_full,test$price)
 
@@ -102,7 +102,7 @@ plot(reduced_model)
 #predicting prices for reduced model
 pred_log_prob<-predict(reduced_model, newdata = test, type = 'response')
 
-#finding RMSE(root mean square error) less the value more better the model and R2 to check accuracy
+#finding RMSE(root mean square error) less the value more better the model and R2 to check how much variance the model explains
 RMSE(pred_log_prob,test$price)
 R2(pred_log_prob,test$price)
 
@@ -120,7 +120,7 @@ summary(reg)
 #Predicting prices of decision tree
 pred_tree<-predict(reg,newdata = test)
 
-#finding RMSE(root mean square error) less the value more better the model and R2 to check accuracy
+#finding RMSE(root mean square error) less the value more better the model and R2 to check how much variance the model explains
 RMSE(pred_tree,test$price)
 R2(pred_tree,test$price)
 
@@ -147,7 +147,7 @@ varImpPlot(rndm_frst)
 #Predicting values of applied Random Forest model
 pred_rndm<-predict(rndm_frst,newdata = test)
 
-#finding RMSE(root mean square error) less the value more better the model and R2 to check accuracy
+#finding RMSE(root mean square error) less the value more better the model and R2 to check how much variance the model explains
 RMSE(pred_rndm,test$price)
 R2(pred_rndm,test$price)
 
@@ -174,6 +174,6 @@ print(grdnt_bstng)
 #Predicting values of applied Gradient Boosting model
 pred_grd<-predict(grdnt_bstng,newdata = test)
 
-#finding RMSE(root mean square error) less the value more better the model and R2 to check accuracy
+#finding RMSE(root mean square error) less the value more better the model and R2 to check how much variance the model explains
 RMSE(pred_grd,test$price)
 R2(pred_grd,test$price)
